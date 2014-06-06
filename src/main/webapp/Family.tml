@@ -1,0 +1,22 @@
+<html t:type="layout" title="family.title"
+          heading="message:family.heading" menu="Family" bodyClass="family"
+          xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd">
+
+    <h2>${message:family.heading}</h2>
+    <p>${message:me.message}</p>
+
+    <div class="separator"></div>
+
+    <ul class="glassList">
+        <li>
+            <a t:type="pagelink" page="home">${message:menu.family.children}</a>
+        </li>
+        <li>
+            <a t:type="pagelink" page="home">${message:menu.family.pets}</a>
+        </li>
+        <li>
+            <a t:type="pagelink" page="home">${message:menu.family.adults}</a>
+        </li>
+    </ul>
+
+</html>

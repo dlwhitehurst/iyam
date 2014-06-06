@@ -1,0 +1,28 @@
+<html t:type="layout" title="goals.title"
+          heading="message:goals.heading" menu="Goals" bodyClass="goals"
+          xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd">
+
+    <h2>${message:goals.heading}</h2>
+    <p>${message:me.message}</p>
+
+    <div class="separator"></div>
+
+    <ul class="glassList">
+        <li>
+            <a t:type="pagelink" page="home">${message:menu.goals.workshop}</a>
+        </li>
+        <li>
+            <a t:type="pagelink" page="home">${message:menu.goals.home}</a>
+        </li>
+        <li>
+            <a t:type="pagelink" page="home">${message:menu.goals.business}</a>
+        </li>
+        <li>
+            <a t:type="pagelink" page="home">${message:menu.goals.health}</a>
+        </li>
+        <li>
+            <a t:type="pagelink" page="home">${message:menu.goals.family}</a>
+        </li>
+    </ul>
+
+</html>

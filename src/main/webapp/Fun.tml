@@ -1,0 +1,16 @@
+<html t:type="layout" title="fun.title"
+          heading="message:fun.heading" menu="Fun" bodyClass="fun"
+          xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd">
+
+    <h2>${message:fun.heading}</h2>
+    <p>${message:me.message}</p>
+
+    <div class="separator"></div>
+
+    <ul class="glassList">
+        <li>
+            <a t:type="pagelink" page="home">${message:menu.fun.vacation}</a>
+        </li>
+    </ul>
+
+</html>

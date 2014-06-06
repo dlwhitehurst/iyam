@@ -1,0 +1,34 @@
+<html t:type="layout" title="work.title"
+          heading="message:work.heading" menu="Work" bodyClass="work"
+          xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd">
+
+    <h2>${message:work.heading}</h2>
+    <p>${message:me.message}</p>
+
+    <div class="separator"></div>
+
+    <ul class="glassList">
+        <li>
+            <a t:type="pagelink" page="home">${message:menu.work.automation}</a>
+        </li>
+        <li>
+            <a t:type="pagelink" page="home">${message:menu.work.employment}</a>
+        </li>
+        <li>
+            <a t:type="pagelink" page="home">${message:menu.work.part-time}</a>
+        </li>
+        <li>
+            <a t:type="pagelink" page="home">${message:menu.work.business}</a>
+        </li>
+        <li>
+            <a t:type="pagelink" page="home">${message:menu.work.house}</a>
+        </li>
+        <li>
+            <a t:type="pagelink" page="home">${message:menu.work.yard}</a>
+        </li>
+        <li>
+            <a t:type="pagelink" page="home">${message:menu.work.weekend}</a>
+        </li>
+    </ul>
+
+</html>
