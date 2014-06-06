@@ -36,7 +36,13 @@
             <!-- Add new menu items here -->
 
             <t:menuitem name="Me" title="me.title" page="me" roles="ROLE_ADMIN,ROLE_USER"/>
-            <t:menuitem name="Work" title="work.title" page="work" roles="ROLE_ADMIN,ROLE_USER"/>
+            <t:menuitem name="Work" title="work.title" roles="ROLE_ADMIN,ROLE_USER"
+                        class="dropdown" data-toggle="dropdown">
+                <ul class="dropdown-menu">
+                    <t:delegate to="block:workItemsBlock"/>
+                </ul>
+            </t:menuitem>
+
             <t:menuitem name="Family" title="family.title" page="family" roles="ROLE_ADMIN,ROLE_USER"/>
             <t:menuitem name="Goals" title="goals.title" page="goals" roles="ROLE_ADMIN,ROLE_USER"/>
             <t:menuitem name="Fun" title="fun.title" page="fun" roles="ROLE_ADMIN,ROLE_USER"/>
@@ -84,9 +90,18 @@
 
 <t:block id="adminItemsBlock">
     <t:menuitem name="ViewUsers" title="menu.admin.users" page="admin/userlist"/>
+    <t:menuitem name="ViewUploads" title="menu.admin.uploads" page="home"/> <!-- TODO -->
     <t:menuitem name="ActiveUsers" title="home.activeUsers" page="admin/activeusers"/>
     <t:menuitem name="ReloadContext" title="menu.admin.reload" page="admin/reload"/>
     <t:menuitem name="FileUpload" title="menu.selectFile" page="fileupload"/>
+</t:block>
+
+<t:block id="workItemsBlock">
+    <t:menuitem name="Business" title="menu.work.business" page="work/business"/>
+    <t:menuitem name="Automation" title="menu.work.automation" page="home"/>
+    <t:menuitem name="House" title="menu.work.house" page="home"/>
+    <t:menuitem name="Yard" title="menu.work.yard" page="home"/>
+    <t:menuitem name="Weekend" title="menu.work.weekend" page="home"/>
 </t:block>
 
 <t:footer/>

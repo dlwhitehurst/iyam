@@ -1,0 +1,39 @@
+<html t:type="layout" title="business.title"
+          heading="message:business.heading" menu="Business" bodyClass="business"
+          xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd">
+
+    <h2>${message:business.heading}</h2>
+    <p>${message:business.message}</p>
+
+    <div class="separator"></div>
+
+    <ul class="glassList">
+        <li>
+            <a t:type="pagelink" page="home">${message:menu.work.business.inventory}</a>
+        </li>
+        <li>
+            <a t:type="pagelink" page="home">${message:menu.work.business.capability}</a>
+        </li>
+        <li>
+            <a t:type="pagelink" page="home">${message:menu.work.business.process}</a>
+        </li>
+        <li>
+            <a t:type="pagelink" page="home">${message:menu.work.business.financials}</a>
+        </li>
+        <li>
+            <a t:type="pagelink" page="home">${message:menu.work.business.risk}</a>
+        </li>
+        <li>
+            <a t:type="pagelink" page="home">${message:menu.work.business.structure}</a>
+        </li>
+        <li>
+            <a t:type="pagelink" page="home">${message:menu.work.business.mission}</a>
+        </li>
+        <li>
+            <a t:type="pagelink" page="home">${message:menu.work.business.plan}</a>
+        </li>
+
+    </ul>
+
+</html>
+

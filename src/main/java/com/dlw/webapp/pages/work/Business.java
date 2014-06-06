@@ -15,7 +15,7 @@
  * 
  */
 
-package com.dlw.webapp.pages;
+package com.dlw.webapp.pages.work;
 
 import org.apache.tapestry5.ioc.annotations.Inject;
 import org.apache.tapestry5.services.Request;
@@ -27,7 +27,7 @@ import org.slf4j.Logger;
  * @author <a href="mailto:dlwhitehurst@me.com">David L. Whitehurst</a>
  *
  */
-public class Work {
+public class Business {
 
 	@Inject
     private Logger logger;
