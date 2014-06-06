@@ -1,0 +1,26 @@
+<html t:type="layout" title="me.title"
+          heading="message:me.heading" menu="Me" bodyClass="me"
+          xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd">
+
+    <h2>${message:me.heading}</h2>
+    <p>${message:me.message}</p>
+
+    <div class="separator"></div>
+
+    <ul class="glassList">
+        <li>
+            <a t:type="pagelink" page="home">${message:menu.me.projects}</a>
+        </li>
+        <li>
+            <a t:type="pagelink" page="home">${message:menu.me.education}</a>
+        </li>
+        <li>
+            <a t:type="pagelink" page="home">${message:menu.me.health}</a>
+        </li>
+        <li>
+            <a t:type="pagelink" page="home">${message:menu.me.security}</a>
+        </li>
+
+    </ul>
+
+</html>
