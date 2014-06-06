@@ -12,7 +12,12 @@
 </head>
 <body id="${bodyId}" class="${bodyClass}">
 
-<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+<div>
+	<img id="banner" src="images/saw-banner.jpg" alt="Banner Image"/>
+</div>
+
+<!-- navbar-fixed-top -->
+<div class="navbar navbar-default" role="navigation">
     <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
             <span class="icon-bar"></span>
@@ -58,10 +63,10 @@
 
 <div class="container" id="content">
     <!-- messages here  -->
+    
     <div t:type="alerts"/>
     <div class="row">
         <t:body/>
-
         <t:if test="sidebar">
             <t:delegate to="sidebar"/>
         </t:if>
