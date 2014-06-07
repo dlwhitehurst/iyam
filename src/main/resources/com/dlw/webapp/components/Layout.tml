@@ -90,7 +90,6 @@
 
 <t:block id="adminItemsBlock">
     <t:menuitem name="ViewUsers" title="menu.admin.users" page="admin/userlist"/>
-    <t:menuitem name="ViewUploads" title="menu.admin.uploads" page="home"/> <!-- TODO -->
     <t:menuitem name="ActiveUsers" title="home.activeUsers" page="admin/activeusers"/>
     <t:menuitem name="ReloadContext" title="menu.admin.reload" page="admin/reload"/>
     <t:menuitem name="FileUpload" title="menu.selectFile" page="fileupload"/>

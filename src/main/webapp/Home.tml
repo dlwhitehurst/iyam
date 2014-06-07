@@ -14,6 +14,9 @@
         <li>
             <a t:type="pagelink" page="FileUpload">${message:menu.selectFile}</a>
         </li>
+        <li>
+            <a t:type="pagelink" page="uploadlist">${message:menu.uploads}</a>
+        </li>
     </ul>
 
 </html>

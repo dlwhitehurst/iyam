@@ -51,8 +51,8 @@ public class AppModule {
         // on the command line as -Dtapestry.production-mode=false
         configuration.add(SymbolConstants.PRODUCTION_MODE, "false");
 
-        // Maximum upload size is 2MB (size is in bytes)
-        configuration.add(UploadSymbols.FILESIZE_MAX, "2048000");
+        // Maximum upload size is 1GB (size is in bytes)
+        configuration.add(UploadSymbols.FILESIZE_MAX, "1073741824"); //"2048000");
 
         // HHAC recommended for better security as of Tapestry 5.3.6
         configuration.add(SymbolConstants.HMAC_PASSPHRASE, "AppFuse Tapestry is Great");
