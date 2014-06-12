@@ -9,7 +9,7 @@
 
     <ul class="glassList">
         <li>
-            <a t:type="pagelink" page="home">${message:menu.work.business.inventory}</a>
+            <a t:type="pagelink" page="work/inventory">${message:menu.work.business.inventory}</a>
         </li>
         <li>
             <a t:type="pagelink" page="home">${message:menu.work.business.capability}</a>

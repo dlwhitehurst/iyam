@@ -35,7 +35,13 @@
             
             <!-- Add new menu items here -->
 
-            <t:menuitem name="Me" title="me.title" page="me" roles="ROLE_ADMIN,ROLE_USER"/>
+            <t:menuitem name="Me" title="me.title" roles="ROLE_ADMIN,ROLE_USER"
+                        class="dropdown" data-toggle="dropdown">
+                <ul class="dropdown-menu">
+                    <t:delegate to="block:meItemsBlock"/>
+                </ul>
+            </t:menuitem>
+
             <t:menuitem name="Work" title="work.title" roles="ROLE_ADMIN,ROLE_USER"
                         class="dropdown" data-toggle="dropdown">
                 <ul class="dropdown-menu">
@@ -95,6 +101,13 @@
     <t:menuitem name="FileUpload" title="menu.selectFile" page="fileupload"/>
 </t:block>
 
+<t:block id="meItemsBlock">
+    <t:menuitem name="Projects" title="menu.me.projects" page="me/projects"/>
+    <t:menuitem name="Education" title="menu.me.education" page="home"/>
+    <t:menuitem name="Health" title="menu.me.health" page="home"/>
+    <t:menuitem name="Security" title="menu.me.security" page="home"/>
+</t:block>
+
 <t:block id="workItemsBlock">
     <t:menuitem name="Business" title="menu.work.business" page="work/business"/>
     <t:menuitem name="Automation" title="menu.work.automation" page="home"/>
@@ -102,6 +115,7 @@
     <t:menuitem name="Yard" title="menu.work.yard" page="home"/>
     <t:menuitem name="Weekend" title="menu.work.weekend" page="home"/>
 </t:block>
+
 
 <t:footer/>
 </body>

@@ -8,5 +8,7 @@
     <session-factory>
         <mapping class="com.dlw.model.User"/>
         <mapping class="com.dlw.model.Role"/>
+        <mapping class="com.dlw.model.InventoryItem"/>
+        
     </session-factory>
 </hibernate-configuration>

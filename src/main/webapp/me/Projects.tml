@@ -1,0 +1,16 @@
+<html t:type="layout" title="projects.title"
+          heading="message:projects.heading" menu="Projects" bodyClass="projects"
+          xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd">
+
+    <h2>${message:projects.heading}</h2>
+    <p>${message:projects.message}</p>
+
+    <div class="separator"></div>
+
+    <ul class="glassList">
+        <li>
+            <a t:type="pagelink" page="home">Just some text</a>
+        </li>
+    </ul>
+
+</html>

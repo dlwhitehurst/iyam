@@ -119,4 +119,24 @@
             <value description="role_id">-2</value>
         </row>
     </table>
+    <table name="inventory_item">
+        <column>id</column>
+        <column>name</column>
+        <column>size</column>
+        <column>notes</column>
+        
+        <row>
+            <value description="id">-1</value>
+            <value description="name">Band Saw</value>
+            <value description="size">10 in.</value>
+            <value description="notes">Delta Brand</value>
+        </row>
+        <row>
+            <value description="id">-2</value>
+            <value description="name">Contractor Table Saw</value>
+            <value description="size">10 in.</value>
+            <value description="notes">Jet Brand</value>
+        </row>
+    </table>
+    
 </dataset>
