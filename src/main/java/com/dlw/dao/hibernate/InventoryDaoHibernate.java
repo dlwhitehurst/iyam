@@ -23,7 +23,7 @@ import org.hibernate.Query;
 import org.springframework.stereotype.Repository;
 
 import com.dlw.dao.InventoryDao;
-import com.dlw.model.InventoryItem;
+import com.dlw.model.work.InventoryItem;
 
 /**
  * @author <a href="mailto:dlwhitehurst@me.com">David L. Whitehurst</a>

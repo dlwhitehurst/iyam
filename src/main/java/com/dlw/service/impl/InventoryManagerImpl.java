@@ -23,7 +23,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import com.dlw.dao.InventoryDao;
 import com.dlw.dao.UserDao;
-import com.dlw.model.InventoryItem;
+import com.dlw.model.work.InventoryItem;
 import com.dlw.service.InventoryItemExistsException;
 import com.dlw.service.InventoryManager;
 

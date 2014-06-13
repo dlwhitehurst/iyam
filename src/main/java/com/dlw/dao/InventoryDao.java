@@ -19,7 +19,7 @@ package com.dlw.dao;
 
 import java.util.List;
 
-import com.dlw.model.InventoryItem;
+import com.dlw.model.work.InventoryItem;
 
 /**
  * @author <a href="mailto:dlwhitehurst@me.com">David L. Whitehurst</a>

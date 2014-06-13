@@ -30,8 +30,8 @@ import org.apache.tapestry5.services.javascript.JavaScriptSupport;
 import org.slf4j.Logger;
 
 import com.dlw.dao.SearchException;
-import com.dlw.model.InventoryItem;
 import com.dlw.model.User;
+import com.dlw.model.work.InventoryItem;
 import com.dlw.service.InventoryManager;
 import com.dlw.service.UserManager;
 import com.dlw.webapp.pages.Home;

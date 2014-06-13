@@ -27,7 +27,7 @@ import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 
 import com.dlw.dao.InventoryDao;
-import com.dlw.model.InventoryItem;
+import com.dlw.model.work.InventoryItem;
 
 /**
  * @author <a href="mailto:dlwhitehurst@me.com">David L. Whitehurst</a>

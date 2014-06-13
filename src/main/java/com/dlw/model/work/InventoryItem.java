@@ -15,7 +15,7 @@
  * 
  */
 
-package com.dlw.model;
+package com.dlw.model.work;
 
 import java.io.Serializable;
 
@@ -30,6 +30,8 @@ import javax.xml.bind.annotation.XmlRootElement;
 import org.hibernate.search.annotations.DocumentId;
 import org.hibernate.search.annotations.Field;
 import org.hibernate.search.annotations.Indexed;
+
+import com.dlw.model.BaseObject;
 
 /**
  * @author <a href="mailto:dlwhitehurst@me.com">David L. Whitehurst</a>
@@ -95,7 +97,7 @@ public class InventoryItem extends BaseObject implements Serializable {
 	/**
 	 * @return the size
 	 */
-    @Column(nullable = false, length = 50, unique = false)
+    @Column(nullable = true, length = 50, unique = false)
     @Field
 	public String getSize() {
 		return size;
@@ -111,7 +113,7 @@ public class InventoryItem extends BaseObject implements Serializable {
 	/**
 	 * @return the notes
 	 */
-    @Column(nullable = false, length = 255, unique = true)
+    @Column(nullable = true, length = 255, unique = false)
     @Field
 	public String getNotes() {
 		return notes;
