@@ -45,6 +45,8 @@ public class InventoryItem extends BaseObject implements Serializable {
 	private Long id;
 	private String name;
 	private String size;
+	private String modelNo;
+	private String brand;
 	private String notes;
 	
 	/* (non-Javadoc)
@@ -137,6 +139,22 @@ public class InventoryItem extends BaseObject implements Serializable {
 	 */
 	public void setId(Long id) {
 		this.id = id;
+	}
+
+	public String getModelNo() {
+		return modelNo;
+	}
+
+	public void setModelNo(String modelNo) {
+		this.modelNo = modelNo;
+	}
+
+	public String getBrand() {
+		return brand;
+	}
+
+	public void setBrand(String brand) {
+		this.brand = brand;
 	}
 
 }
