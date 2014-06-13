@@ -1,0 +1,17 @@
+<html t:type="layout" title="education.title"
+          heading="message:education.heading" menu="Education" bodyClass="education"
+          xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd">
+
+    <h2>${message:education.heading}</h2>
+    <p>${message:education.message}</p>
+
+    <div class="separator"></div>
+
+    <ul class="glassList">
+        <li>
+            <a t:type="pagelink" page="home">${message:menu.me.education.books}</a>
+        </li>
+    </ul>
+
+</html>
+
