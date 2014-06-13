@@ -13,7 +13,7 @@
 <body id="${bodyId}" class="${bodyClass}">
 
 <div>
-	<img id="banner" src="/images/saw-banner.jpg" alt="Banner Image"/>
+	<img id="banner" src="/images/new-banner.png" alt="Banner Image"/>
 </div>
 
 <!-- navbar-fixed-top -->
@@ -103,7 +103,7 @@
 
 <t:block id="meItemsBlock">
     <t:menuitem name="Projects" title="menu.me.projects" page="me/projects"/>
-    <t:menuitem name="Education" title="menu.me.education" page="home"/>
+    <t:menuitem name="Education" title="menu.me.education" page="me/education"/>
     <t:menuitem name="Health" title="menu.me.health" page="home"/>
     <t:menuitem name="Security" title="menu.me.security" page="home"/>
 </t:block>
